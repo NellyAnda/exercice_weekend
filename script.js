@@ -14,3 +14,13 @@ if ( ((annee%4 == 0) && !(annee%100 == 0)) || (annee%400 == 0) ) {
 
 console.log(reduction);
 console.log((chiffreDAffaire2020/100)*reduction);
+
+var age = 16;
+var estMajeur = null;
+
+if (age > 18) {
+  estMajeur = true;
+} else {
+  estMajeur = false;
+}
+console.log(estMajeur);
